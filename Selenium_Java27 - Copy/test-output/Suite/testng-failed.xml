@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Javabasic.Topic03_Condition_Ifelse">
+        <methods>
+          <include name="TC_03_Ifelse_Ifelse" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Javabasic.Topic03_Condition_Ifelse -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
